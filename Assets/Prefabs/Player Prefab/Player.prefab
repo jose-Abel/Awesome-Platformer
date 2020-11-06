@@ -39,7 +39,8 @@ GameObject:
   - component: {fileID: 61703241708119956}
   - component: {fileID: 50143774706796792}
   - component: {fileID: 114385798764424874}
-  m_Layer: 0
+  - component: {fileID: 114753780275177598}
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -151,6 +152,17 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &114753780275177598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1251196045493508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fd44ad886342b49a7f21c2dfa44269, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212667318168519440
 SpriteRenderer:
   m_ObjectHideFlags: 1
