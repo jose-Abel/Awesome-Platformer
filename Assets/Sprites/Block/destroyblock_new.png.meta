@@ -1,10 +1,10 @@
 fileFormatVersion: 2
 guid: 67f17be5f94744d89ae9beb1d87310f8
-timeCreated: 1468240816
+timeCreated: 1604880472
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: destroyblock_new_0
+    21300000: Block 1
     21300002: destroyblock_new_1
     21300004: destroyblock_new_2
     21300006: destroyblock_new_3
@@ -13,14 +13,16 @@ TextureImporter:
     21300012: destroyblock_new_6
     21300014: destroyblock_new_7
     21300016: destroyblock_new_8
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -30,23 +32,22 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -54,12 +55,28 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: destroyblock_new_0
+    - serializedVersion: 2
+      name: Block 1
       rect:
         serializedVersion: 2
         x: 0
@@ -67,16 +84,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 31, y: -32}
-        - {x: 32, y: -31}
-        - {x: 32, y: 30}
-        - {x: 30, y: 32}
-    - name: destroyblock_new_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_1
       rect:
         serializedVersion: 2
         x: 64
@@ -84,16 +98,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 31, y: -32}
-        - {x: 32, y: -31}
-        - {x: 32, y: 30}
-        - {x: 30, y: 32}
-    - name: destroyblock_new_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_2
       rect:
         serializedVersion: 2
         x: 128
@@ -101,20 +112,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 32}
-        - {x: -32, y: 27}
-        - {x: -32, y: -26}
-        - {x: -29, y: -25}
-        - {x: -6, y: -31}
-        - {x: -3, y: -32}
-        - {x: 23, y: -32}
-        - {x: 32, y: -24}
-        - {x: 32, y: 4}
-        - {x: 13, y: 32}
-    - name: destroyblock_new_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_3
       rect:
         serializedVersion: 2
         x: 0
@@ -122,16 +126,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 31, y: -32}
-        - {x: 32, y: -31}
-        - {x: 32, y: 30}
-        - {x: 30, y: 32}
-    - name: destroyblock_new_4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_4
       rect:
         serializedVersion: 2
         x: 64
@@ -139,16 +140,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 31, y: -32}
-        - {x: 32, y: -31}
-        - {x: 32, y: 30}
-        - {x: 30, y: 32}
-    - name: destroyblock_new_5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_5
       rect:
         serializedVersion: 2
         x: 128
@@ -156,20 +154,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 32}
-        - {x: -32, y: 27}
-        - {x: -32, y: -26}
-        - {x: -29, y: -25}
-        - {x: -6, y: -31}
-        - {x: -3, y: -32}
-        - {x: 23, y: -32}
-        - {x: 32, y: -24}
-        - {x: 32, y: 4}
-        - {x: 13, y: 32}
-    - name: destroyblock_new_6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_6
       rect:
         serializedVersion: 2
         x: 0
@@ -177,16 +168,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 31, y: -32}
-        - {x: 32, y: -31}
-        - {x: 32, y: 30}
-        - {x: 30, y: 32}
-    - name: destroyblock_new_7
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_7
       rect:
         serializedVersion: 2
         x: 64
@@ -194,16 +182,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -32, y: 32}
-        - {x: -32, y: -32}
-        - {x: 31, y: -32}
-        - {x: 32, y: -31}
-        - {x: 32, y: 30}
-        - {x: 30, y: 32}
-    - name: destroyblock_new_8
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: destroyblock_new_8
       rect:
         serializedVersion: 2
         x: 128
@@ -211,20 +196,13 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -16, y: 32}
-        - {x: -32, y: 27}
-        - {x: -32, y: -26}
-        - {x: -29, y: -25}
-        - {x: -6, y: -31}
-        - {x: -3, y: -32}
-        - {x: 23, y: -32}
-        - {x: 32, y: -24}
-        - {x: 32, y: 4}
-        - {x: 13, y: 32}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

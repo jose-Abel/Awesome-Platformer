@@ -8,6 +8,9 @@ TagManager:
   - Bullet
   - Snail
   - Spider
+  - Water
+  - Coin
+  - Boss
   layers:
   - Default
   - TransparentFX
